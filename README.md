@@ -15,33 +15,40 @@ Installation
 Usage
 
 Contributing
-## Introduction
 
+## Introduction
 
 This repository hosts an AI Exercise Application that employs MediaPipe, an open-source library developed by Google, and Scikit-Learn, a popular machine learning library, to detect yoga poses and exercises. The application aims to provide real-time feedback and guidance to users during their yoga sessions.
 
 
+## Requirements
+
+Python>=3.10
+Jupyter
+Scikit-learn
+Mediapipe
+Pandas
+
 ## Installation
 
-1.Clone the repository:
-
-
-## Installation
-
-Install my-project with npm
+1) Clone the repo
 
 ```bash
 git clone https://github.com/your-username/ai-exercise-app.git
 cd ai-exercise-app
 ```
-    
 
+1.1) (Optional) Create a virtual environment
 
-Install dependencies and Run the application
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+2) Install dependencies
 
 ```bash
  pip install -r requirements.txt
- python app.py
 ```
 
 
