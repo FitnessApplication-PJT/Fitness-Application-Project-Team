@@ -31,24 +31,21 @@ Pandas
 
 ## Installation
 
-1)
-Clone the repo
+1) Clone the repo
 
 ```bash
 git clone https://github.com/your-username/ai-exercise-app.git
 cd ai-exercise-app
 ```
 
-1.1)
-(Optional) Create a virtual environment
+1.1) (Optional) Create a virtual environment
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-2)
-Install dependencies
+2) Install dependencies
 
 ```bash
  pip install -r requirements.txt
